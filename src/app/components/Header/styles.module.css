@@ -1,0 +1,34 @@
+header.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header.header .title {
+  padding: 4px 8px;
+  border-bottom: 1px solid #EEE;
+}
+header.header .title h1 {
+  font-weight: 700;
+  color: tomato;
+}
+
+header.header .headerButtons {
+  display: flex;
+  align-items: center;
+}
+
+header.header .headerButtons .headerButtonsBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #EEE;
+  width: 65px;
+  height: 48px;
+}
+
+header.header .headerButtons .headerButtonsBox svg {
+  width: 24px;
+  height: 24px;
+  color: #444;
+}

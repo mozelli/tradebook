@@ -1,0 +1,41 @@
+.newPostHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #EEE;
+}
+
+.newPostHeader .info {
+  display: flex;
+  align-items: center;
+}
+
+.newPostHeader .info .avatar {
+  width: 48px;
+  height: 48px;
+  background-color: #DDD;
+  border-radius: 50%;
+}
+
+.newPostHeader .info .right {
+  padding-left: 8px;
+}
+
+.newPostHeader .info .right .userName h2 {
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.newPostHeader .info .right button {
+  display: flex;
+  align-items: center;
+  background-color: #DDD;
+  border: none;
+  border-radius: 4px;
+}
+
+.newPostHeader .info .right button svg {
+  padding-right: 4px;
+}

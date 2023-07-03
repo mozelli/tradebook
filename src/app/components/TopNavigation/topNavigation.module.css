@@ -1,0 +1,26 @@
+nav.topNavigation {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #EEE;
+}
+
+nav.topNavigation .returnButton {
+
+}
+
+nav.topNavigation .returnButton a {
+  color: tomato;
+}
+
+nav.topNavigation .returnButton svg {
+  width: 24px;
+  height: 24px;
+}
+
+nav.topNavigation h1 {
+  padding-left: 16px;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0;
+}

@@ -1,0 +1,19 @@
+.userInfo {
+ padding: 8px;
+ border-bottom: 1px solid #EEE;
+}
+
+.userInfo .info {
+  display: flex;
+  align-items: center; 
+  padding: 2px 0;
+}
+
+.userInfo .info .infoIcon {
+  display: flex;
+  align-items: center;
+}
+
+.userInfo .info .infoText {
+  padding-left: 8px;
+}

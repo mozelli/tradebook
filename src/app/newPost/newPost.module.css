@@ -1,0 +1,27 @@
+main.newPost {
+  
+}
+
+main.newPost .text {
+  padding: 8px;
+}
+
+main.newPost .options {
+  margin: 8px;
+}
+
+main.newPost .options .option {
+  display: flex;
+  align-items: center;
+}
+
+main.newPost .options .option svg {
+  color: tomato;
+  width: 24px;
+  height: 24px;
+}
+
+main.newPost .options .option span {
+  padding-left: 8px;
+  font-size: 1.1rem;
+}

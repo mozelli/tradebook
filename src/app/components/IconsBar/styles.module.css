@@ -1,0 +1,20 @@
+.iconsBar {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #EEE;
+}
+
+.iconBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #EEE;
+  width: 65px;
+  height: 48px;
+}
+
+.iconBox svg {
+  width: 24px;
+  height: 24px;
+  color: #444;
+}
